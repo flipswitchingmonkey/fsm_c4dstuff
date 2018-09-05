@@ -7,9 +7,9 @@ _DEBUG = False
 
 # C4D can use UNC paths, but the next time they are changed within the app, they are stored as path + authoritypath
 # instead, so for each UNC path there are two possible ways they may be stored as
-_PLUGINPATHUNC = "//prime/public/R20/plugins"
-_PLUGINPATH = "public/R20/plugins"
-_PLUGINAUTHORITYPATH = "prime"
+_PLUGINPATHUNC = "//SERVER/FOLDER/R20/plugins"
+_PLUGINPATH = "FOLDER/R20/plugins"
+_PLUGINAUTHORITYPATH = "SERVER"
 
 # A JSON block that contains a path definition
 _NEWPATH = {
@@ -52,7 +52,6 @@ _NEWFILE = {
                                 "referenceIndex": 0,
                                 "referenceDataType": "net.maxon.interface.url-C",
                                 "_scheme": "file",
-                                "_path": "public/R20/plugins",
                                 "_path": _PLUGINPATH,
                                 "_authority": {
                                     "referenceDataType": "net.maxon.interface.url-C",
